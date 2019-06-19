@@ -13,7 +13,7 @@ UserService userService=(UserService) act.getBean("userService");
 <!-- 
   配置一个侦听器，侦听web应用启动事件，
   一旦web应用启动，那么listener会读取contextConfigLocation参数值，也就是读取spring的bean的配置文件
-  然后把文件中注册的bean全部实例化  砝码
+  然后把文件中注册的bean全部实例化 
    -->
   
   <listener>
